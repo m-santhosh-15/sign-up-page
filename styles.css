@@ -67,9 +67,15 @@ p{
     text-align: center;
 } 
 
-@media screen and (max-width:756px) {
+@media screen and (max-width:767px) {
     #nav marquee{
          display: none;
+    }
+    body{
+        background-size: auto;
+    }
+    #footer{
+        bottom: 0;
     }
     
 }
